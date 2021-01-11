@@ -1,0 +1,510 @@
+@import '../scss/common/variables';
+
+:focus {
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+
+body {
+  background-color: #F5F3EF;
+  margin: 0px;
+  // font-family: 'Libre Baskerville', serif;
+  font-family: 'Roboto', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: $grey;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-family: $font-serif;
+  margin-bottom: 8px;
+  color: #48443D;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h2 {
+  margin-bottom: 16px;
+  color: $dark-grey;
+  opacity: 0.8;
+  // text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  @media screen and (min-width: $breakpoint-tablet) {
+      font-size: 2.2rem;}
+}
+
+h3 {
+
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  line-height: 5rem;
+  font-family: $font-serif;
+  font-weight: 900;
+  color: $dark-grey;
+  @media screen and (min-width: $breakpoint-tablet) {
+      font-size: 3rem;
+      line-height: 4.5rem;
+      }
+}
+
+h4 {
+  color: $dark-grey;
+  // opacity: 0.6;
+  font-size: 1.8rem;
+  font-family:$font-serif ;
+  font-weight: 800;
+  color: $main-color;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+p {
+  line-height: 2.4rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+
+// PROFILE //
+
+
+.profile-container {
+  width: 100%;
+  padding: 80px 24px 0 24px;
+  // background-color: white;
+  text-align: left;
+  @media screen and (min-width: $breakpoint-tablet) {
+      padding: 80px 0 0 0;}
+}
+
+
+.profile {
+  width: 100%;
+  margin: auto;
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 960px;
+  }
+
+.profile-info {
+  margin-bottom: 60px;
+
+  p {
+    margin-bottom: 24px;
+    opacity: 0.7;
+
+    i {
+      margin-right: 8px;
+      color: $grey;
+    }
+  }
+
+
+}
+
+.summary {
+
+  p {
+
+    font-size: 3rem;
+    line-height: 5rem;
+    font-family: $font-serif;
+    font-weight: 100;
+    // color: $grey;
+    padding: 0;
+    @media screen and (min-width: $breakpoint-tablet) {
+        padding: 0;
+        font-size: 3rem;
+        line-height: 5.5rem;}
+  }
+
+  span {
+    color: $main-color;
+    font-size: 2.8rem;
+    line-height: 5rem;
+    font-family: $font-serif;
+    font-weight: 900;
+    padding: 0;
+    @media screen and (min-width: $breakpoint-tablet) {
+        padding: 0;
+        line-height: 5.5rem;}
+
+  }
+
+  h3 {
+    margin-bottom: 80px;
+  }
+}
+
+
+
+
+  #send-icon {
+    display: inline-block;
+    background-color: $main-color;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    padding: 8px 1px 5px 8px;
+    text-decoration: none;
+    color: $main-color;
+    margin-right: 16px;
+  }
+
+  #send-icon:hover {
+    background-color: $grey;
+  }
+
+  i {
+    vertical-align: center;
+    text-align: center;
+    color: white;
+  }
+
+  #linkedin-icon {
+    display: inline-block;
+    background-color: $main-color;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    padding: 7px 1px 5px 9px;
+    text-decoration: none;
+    color: $main-color;
+    margin-right: 16px;
+  }
+
+  #linkedin-icon:hover {
+    background-color: $grey;
+  }
+
+  i {
+    vertical-align: center;
+    text-align: center;
+    color: white;
+  }
+
+  .flex-container {
+    align-items: center;
+
+  }
+
+  img {
+    width: 160px;
+    // height: 140px;
+    margin-bottom: 32px;
+    @media screen and (min-width: $breakpoint-tablet) {
+        width: 160px;}
+  }
+
+  span {
+    color: $main-color;
+    font-size: 2.5rem;
+    text-transform: none;
+  }
+}
+
+
+// METHODOLOGY //
+
+
+.methodology-container {
+  width: 100%;
+  padding: 20px 24px;
+  // background-color: white;
+  text-align: left;
+  @media screen and (min-width: $breakpoint-tablet) {
+      padding: 40px;}
+}
+
+
+.methodology {
+  margin: auto;
+  // color: $grey;
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 960px;
+  }
+
+   p {
+    display: inline-block;
+    line-height: 3rem;
+    width: 80%;
+    margin-bottom: 32px;
+  }
+
+  i {
+    font-size: 24px;
+    color: $main-color;
+    display: inline-block;
+    margin-right: 24px;
+  }
+
+  // h3 {
+  //   // color: $grey;
+  // }
+
+  span {
+    @media screen and (min-width: $breakpoint-tablet) {
+      display: inline-block;
+      // border-bottom: 3px solid rgba(255,255,255,0.3);
+      font-weight: bold;
+      padding: 3px;}
+  }
+}
+
+
+
+// ACTIVITIES //
+
+.activities-container {
+  width: 100%;
+  padding: 20px 24px;
+  // background-color: white;
+  text-align: left;
+  @media screen and (min-width: $breakpoint-tablet) {
+      padding: 40px;}
+}
+
+.activities {
+  margin: auto;
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 960px;}
+  // font-size: 2rem;
+  // color: $grey;
+  // h3 {
+  //   color: $grey;
+  // }
+
+  h4 {
+    color: $main-color;
+  }
+
+  ul {
+    list-style-position: outside;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  li:before {
+  font-family: 'FontAwesome';
+  font-size: 24px;
+  content: '\f105';
+  // margin:0 8px 0 0px;
+  color: $main-color;
+  float: left;
+  margin-left: -1em;
+  display: none;
+  @media screen and (min-width: $breakpoint-desktop) {
+    display: inline;}
+    // opacity: 0.6;
+  }
+
+}
+
+.activities .flex-container {
+  justify-content: space-between;
+}
+
+.activities-item {
+  width: 100%;
+  margin-bottom: 40px;
+  // background-color: white;
+  border-radius: 5px;
+  padding-right: 40px;
+  @media screen and (min-width: $breakpoint-tablet) {
+      margin-bottom: 0;
+      width: 48%;
+    }
+}
+
+
+
+
+// ABOUT //
+
+.about-container {
+
+  width: 100%;
+  padding: 20px 24px;
+  // background-color: white;
+  text-align: left;
+  @media screen and (min-width: $breakpoint-tablet) {
+      padding: 40px 100px;}
+
+}
+
+.about {
+  width: 100%;
+  margin: auto;
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 960px;}
+  // font-size: 2rem;
+  // color: $grey;
+  // margin-bottom: 80px;
+
+  h3 {
+    // color: $grey;
+    // margin-bottom: 80px;
+  }
+
+  i {
+    font-size: 3rem;
+    color: $main-color;
+    margin-bottom: 24px;
+  }
+
+  .flex-container {
+    justify-content: space-between;
+  }
+
+  p {
+    text-align: center;
+  }
+
+}
+
+
+.about-item {
+  text-align: left;
+  width: 100%;
+  vertical-align: center;
+  margin-bottom: 64px;
+  // padding: 56px 32px;
+  @media screen and (min-width: $breakpoint-tablet) {
+      // min-height: 300px;
+      padding: 16px 0;
+      width: 28%;
+      margin-bottom: 40px;
+    }
+
+  p {
+    line-height: 3rem;
+  }
+
+  .emoji {
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+}
+
+// CLIENTS //
+
+.clients-container {
+  width: 100%;
+  padding: 80px 24px 24px 24px;
+  // background-color: white;
+  text-align: left;
+  @media screen and (min-width: $breakpoint-tablet) {
+      padding: 40px;}
+}
+
+.clients {
+  margin: auto;
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 960px;}
+  // font-size: 2rem;
+  // color: $grey;
+
+  h3 {
+    // color: $grey;
+  }
+
+  h4 {
+    color: $main-color;
+  }
+
+  li {
+    // color: $grey;
+  }
+
+  li:before {
+  font-family: 'FontAwesome';
+  font-size: 24px;
+  content: '\f105';
+  margin:0 8px 0 0px;
+  color: $main-color;
+    // opacity: 0.6;
+  }
+}
+
+.clients-item {
+  width: 49%;
+  min-width: 320px;
+  margin-bottom: 40px;
+  // padding: 56px 32px;
+  // font-size: 2rem;
+  // color: $grey;
+  @media screen and (min-width: $breakpoint-tablet) {
+      margin-bottom: 0px;}
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 16px;
+  line-height: 2.5rem;
+}
+
+
+
+.contact-container {
+  width: 100%;
+  padding: 80px 24px;
+  background-color: white;
+  text-align: left;
+  @media screen and (min-width: $breakpoint-tablet) {
+      padding: 40px 0;}
+}
+
+
+.contact {
+  margin: auto;
+  // color: $grey;
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: 960px;}
+
+  p {
+    // text-align: center;
+    // color: $grey;
+  }
+
+  a {
+    color: $main-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: 900;
+  }
+
+  i {
+    color: $main-color;
+    font-size: 2rem;
+    margin-right: 16px;
+  }
+  }
