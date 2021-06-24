@@ -152,7 +152,7 @@ p {
     margin-bottom: 32px; }
     @media screen and (min-width: 767px) {
       .profile img {
-        width: 200px; } }
+        width: 240px; } }
   .profile span {
     color: #C1A47B;
     font-size: 2.5rem;
@@ -296,6 +296,15 @@ li {
   list-style-type: none;
   margin-bottom: 16px;
   line-height: 2.5rem; }
+  li a {
+    color: #6D6962;
+    text-decoration: none; }
+  li a:hover {
+    color: #CDB48F;
+    text-decoration: none; }
+  li a:active {
+    color: #5C5750;
+    text-decoration: none; }
 
 .contact-container {
   width: 100%;

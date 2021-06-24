@@ -217,7 +217,7 @@ p {
     // height: 140px;
     margin-bottom: 32px;
     @media screen and (min-width: $breakpoint-tablet) {
-        width: 200px;}
+        width: 240px;}
   }
 
   span {
@@ -468,7 +468,25 @@ li {
   list-style-type: none;
   margin-bottom: 16px;
   line-height: 2.5rem;
+
+    a {
+      color: $grey;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $primary-color;
+      text-decoration: none;
+    }
+
+    a:active {
+      color: $dark-grey;
+      text-decoration: none;
+    }
+
 }
+
+
 
 
 
