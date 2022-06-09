@@ -29,7 +29,7 @@ body {
   // font-family: 'Libre Baskerville', serif;
   font-family: 'Inter', sans-serif;
   // font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: $grey;
   font-size: 1.8rem;
 }
@@ -261,9 +261,7 @@ p {
     margin-right: 24px;
   }
 
-  // h3 {
-  //   // color: $grey;
-  // }
+
 
   span {
     @media screen and (min-width: $breakpoint-tablet) {
@@ -291,11 +289,7 @@ p {
   margin: auto;
   @media screen and (min-width: $breakpoint-desktop) {
     width: 960px;}
-  // font-size: 2rem;
-  // color: $grey;
-  // h3 {
-  //   color: $grey;
-  // }
+
 
   h4 {
     color: $main-color;
@@ -309,19 +303,15 @@ p {
     list-style-type: none;
   }
 
-  li:before {
-  font-family: 'FontAwesome';
-  font-size: 24px;
-  content: '\f105';
+  // li:before {
+  // font-family: 'FontAwesome';
+  // font-size: 24px;
+  // content: '\f105';
   // margin:0 8px 0 0px;
-  color: $main-color;
-  float: left;
-  margin-left: -1em;
-  display: none;
-  @media screen and (min-width: $breakpoint-desktop) {
-    display: inline;}
-    // opacity: 0.6;
-  }
+  // color: $main-color;
+  //   // opacity: 0.6;
+  // }
+
 
 }
 

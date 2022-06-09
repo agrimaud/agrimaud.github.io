@@ -19,7 +19,7 @@ body {
   background-color: #F5F3EF;
   margin: 0px;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #6D6962;
   font-size: 1.8rem; }
 
@@ -202,17 +202,7 @@ p {
     list-style-position: outside; }
   .activities li {
     list-style-type: none; }
-  .activities li:before {
-    font-family: 'FontAwesome';
-    font-size: 24px;
-    content: '\f105';
-    color: #C1A47B;
-    float: left;
-    margin-left: -1em;
-    display: none; }
-    @media screen and (min-width: 1023px) {
-      .activities li:before {
-        display: inline; } }
+
 .activities .flex-container {
   justify-content: space-between; }
 
