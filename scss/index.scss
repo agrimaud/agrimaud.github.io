@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 16px;
 }
 
 * {
@@ -24,59 +24,59 @@ html {
 
 
 body {
-  background-color: #F5F3EF;
+  background-image: radial-gradient(100% 860px at 50% 0,#ecfbea 0,transparent 100%),linear-gradient(180deg,#d4e6ff 50%,#fcf3ff);
+  // background: linear-gradient(45deg, #F1E7D5 0%, #F5F3EF 100%);
+  background-attachment: fixed;
   margin: 0px;
-  // font-family: 'Libre Baskerville', serif;
   font-family: 'Inter', sans-serif;
-  // font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  color: $grey;
-  font-size: 1.8rem;
+  font-weight: 400;
+  color: $dark-grey;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 120px;
+  padding: 0 20px;
 }
 
 h1 {
-  font-family: $font-serif;
+  font-family: $font-display;
   margin-bottom: 8px;
-  color: #48443D;
-  font-size: 4rem;
+  color: $main-color;
+  font-size: 3rem;
   font-weight: 900;
 }
 
 h2 {
   margin-bottom: 16px;
-  color: $dark-grey;
-  opacity: 0.8;
-  // text-transform: uppercase;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-family: $font-body;
   font-weight: 500;
-  @media screen and (min-width: $breakpoint-tablet) {
-      font-size: 2.2rem;}
+  color: $dark-grey;
+  font-size: 1.5rem;
+//   @media screen and (min-width: $breakpoint-tablet) {
+//       font-size: 2rem;}
 }
 
 h3 {
 
-  font-size: 2.8rem;
+  font-size: 3rem;
   margin-bottom: 40px;
-  line-height: 5rem;
-  font-family: $font-serif;
+  font-family: $font-display;
   font-weight: 900;
-  color: $dark-grey;
-  @media screen and (min-width: $breakpoint-tablet) {
-      font-size: 3rem;
-      line-height: 4.5rem;
-      }
+  color: $main-color;
+  // @media screen and (min-width: $breakpoint-tablet) {
+  //     font-size: 4rem;
+  //     line-height: 4.5rem;
+  //     }
 }
 
 h4 {
-  color: $dark-grey;
-  // opacity: 0.6;
-  font-size: 1.8rem;
-  font-family:$font-serif ;
-  font-weight: 800;
+  font-size: 2rem;
+  font-family: $font-display;
+  font-weight: 900;
   color: $main-color;
   text-transform: uppercase;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 p {
@@ -92,25 +92,19 @@ p {
 // PROFILE //
 
 
-.profile-container {
-  width: 100%;
-  padding: 80px 24px 0 24px;
-  // background-color: white;
-  text-align: left;
-  @media screen and (min-width: $breakpoint-tablet) {
-      padding: 80px 0 0 0;}
-}
-
-
 .profile {
   width: 100%;
   margin: auto;
+  padding-top: 100px;
   @media screen and (min-width: $breakpoint-desktop) {
     width: 960px;
   }
 
 .profile-info {
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column ;
+  gap: 8px;
 
   p {
     margin-bottom: 24px;
@@ -118,26 +112,26 @@ p {
 
     i {
       margin-right: 8px;
-      color: $grey;
+      color: $dark-grey;
     }
   }
 
 
 }
 
+#profile-links {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+}
+
 .summary {
 
   p {
-
-    font-size: 2.8rem;
-    margin-bottom: 40px;
-    line-height: 5rem;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
     font-weight: 400;
     color: $dark-grey;
-    @media screen and (min-width: $breakpoint-tablet) {
-        font-size: 3rem;
-        line-height: 4.5rem;
-        }
   }
 
   span {
@@ -169,12 +163,11 @@ p {
     font-size: 14px;
     padding: 8px 1px 5px 8px;
     text-decoration: none;
-    color: $main-color;
     margin-right: 16px;
   }
 
   #send-icon:hover {
-    background-color: $grey;
+    opacity: 80%;
   }
 
   i {
@@ -197,18 +190,13 @@ p {
   }
 
   #linkedin-icon:hover {
-    background-color: $grey;
+    opacity: 80%;
   }
 
   i {
     vertical-align: center;
     text-align: center;
     color: white;
-  }
-
-  .flex-container {
-    align-items: center;
-
   }
 
   img {
@@ -227,72 +215,26 @@ p {
 }
 
 
-// METHODOLOGY //
-
-
-.methodology-container {
-  width: 100%;
-  padding: 20px 24px;
-  // background-color: white;
-  text-align: left;
-  @media screen and (min-width: $breakpoint-tablet) {
-      padding: 40px;}
-}
-
-
-.methodology {
-  margin: auto;
-  // color: $grey;
-  @media screen and (min-width: $breakpoint-desktop) {
-    width: 960px;
-  }
-
-   p {
-    display: inline-block;
-    line-height: 3rem;
-    width: 80%;
-    margin-bottom: 32px;
-  }
-
-  i {
-    font-size: 24px;
-    color: $main-color;
-    display: inline-block;
-    margin-right: 24px;
-  }
-
-
-
-  span {
-    @media screen and (min-width: $breakpoint-tablet) {
-      display: inline-block;
-      // border-bottom: 3px solid rgba(255,255,255,0.3);
-      font-weight: bold;
-      padding: 3px;}
-  }
-}
-
-
 
 // ACTIVITIES //
 
-.activities-container {
-  width: 100%;
-  padding: 20px 24px;
-  // background-color: white;
-  text-align: left;
-  @media screen and (min-width: $breakpoint-tablet) {
-      padding: 40px;}
-}
 
 .activities {
   margin: auto;
   @media screen and (min-width: $breakpoint-desktop) {
     width: 960px;}
 
+  h3 {
+    margin-bottom: 16px;
+  }
 
-  h4 {
-    color: $main-color;
+  p {
+    // font-size: 2rem;
+    margin-bottom: 40px;
+    color: $dark-grey;
+    font-weight: 400;
+    // line-height: 3rem;
+    padding: 24px 0;
   }
 
   ul {
@@ -303,63 +245,33 @@ p {
     list-style-type: none;
   }
 
-  // li:before {
-  // font-family: 'FontAwesome';
-  // font-size: 24px;
-  // content: '\f105';
-  // margin:0 8px 0 0px;
-  // color: $main-color;
-  //   // opacity: 0.6;
-  // }
-
-
 }
 
-.activities .flex-container {
-  justify-content: space-between;
+.activities-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .activities-item {
   width: 100%;
-  margin-bottom: 40px;
-  // background-color: white;
-  border-radius: 5px;
-  padding-right: 40px;
   @media screen and (min-width: $breakpoint-tablet) {
-      margin-bottom: 0;
-      width: 48%;
+    width: 47%;
     }
 }
 
 
 
-
 // ABOUT //
 
-.about-container {
-
-  width: 100%;
-  padding: 20px 24px;
-  // background-color: white;
-  text-align: left;
-  @media screen and (min-width: $breakpoint-tablet) {
-      padding: 40px 100px;}
-
-}
 
 .about {
   width: 100%;
   margin: auto;
   @media screen and (min-width: $breakpoint-desktop) {
     width: 960px;}
-  // font-size: 2rem;
-  // color: $grey;
-  // margin-bottom: 80px;
 
-  h3 {
-    // color: $grey;
-    // margin-bottom: 80px;
-  }
 
   i {
     font-size: 3rem;
@@ -367,70 +279,47 @@ p {
     margin-bottom: 24px;
   }
 
-  .flex-container {
-    justify-content: space-between;
-  }
-
-  p {
-    text-align: center;
+  .items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 40px;
   }
 
 }
 
-
 .about-item {
-  text-align: left;
-  width: 100%;
   vertical-align: center;
-  margin-bottom: 64px;
-  // padding: 56px 32px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid rgba(38, 47, 45, 0.2);
+  border-radius: 8px;
+  padding: 40px 24px;
   @media screen and (min-width: $breakpoint-tablet) {
-      // min-height: 300px;
-      padding: 16px 0;
-      width: 28%;
-      margin-bottom: 40px;
+    width: 30%;
     }
 
   p {
-    line-height: 3rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
   }
 
   .emoji {
     font-size: 40px;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
   }
 
 }
 
 // CLIENTS //
 
-.clients-container {
-  width: 100%;
-  padding: 80px 24px 24px 24px;
-  // background-color: white;
-  text-align: left;
-  @media screen and (min-width: $breakpoint-tablet) {
-      padding: 40px;}
-}
 
 .clients {
   margin: auto;
   @media screen and (min-width: $breakpoint-desktop) {
     width: 960px;}
-  // font-size: 2rem;
-  // color: $grey;
 
-  h3 {
-    // color: $grey;
-  }
-
-  h4 {
-    color: $main-color;
-  }
-
-  li {
-    // color: $grey;
-  }
 
   li:before {
   font-family: 'FontAwesome';
@@ -438,19 +327,23 @@ p {
   content: '\f105';
   margin:0 8px 0 0px;
   color: $main-color;
-    // opacity: 0.6;
   }
 }
 
+.clients-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 40px;
+}
+
 .clients-item {
-  width: 49%;
+  width: 100%;
   min-width: 320px;
-  margin-bottom: 40px;
-  // padding: 56px 32px;
-  // font-size: 2rem;
-  // color: $grey;
   @media screen and (min-width: $breakpoint-tablet) {
       margin-bottom: 0px;}
+      width: 47%;
 }
 
 li {
@@ -459,12 +352,12 @@ li {
   line-height: 2.5rem;
 
     a {
-      color: $grey;
+      color: $dark-grey;
       text-decoration: none;
     }
 
     a:hover {
-      color: $primary-color;
+      opacity: 60%;
       text-decoration: none;
     }
 
@@ -476,42 +369,26 @@ li {
 }
 
 
-
-
-
-.contact-container {
-  width: 100%;
-  padding: 80px 24px;
-  background-color: white;
-  text-align: left;
-  @media screen and (min-width: $breakpoint-tablet) {
-      padding: 40px 0;}
-}
-
-
 .contact {
   margin: auto;
-  // color: $grey;
+  padding-bottom: 40px;
+  font-size: 1.25rem;
   @media screen and (min-width: $breakpoint-desktop) {
     width: 960px;}
-
-  p {
-    // text-align: center;
-    // color: $grey;
-  }
 
   a {
     color: $main-color;
     text-decoration: none;
+    font-weight: 600;
   }
 
   a:hover {
-    font-weight: 900;
+    opacity: 60%;
   }
 
   i {
     color: $main-color;
-    font-size: 2rem;
+    font-size: 1.25rem;
     margin-right: 16px;
   }
   }
