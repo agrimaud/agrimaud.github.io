@@ -4,14 +4,14 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "94BFBAB1-A533-4A4B-B9D4-85F93EC31376"
+      "uuidString" : "4F720CBF-2A3D-43B9-9904-1E2EE9D18734"
     }
   ],
-  "creatorBuild" : "34335",
+  "creatorBuild" : "34576",
   "files" : {
     "\/assets\/favicon\/android-chrome-192x192.png" : {
       "ft" : 32768,
-      "iS" : 19558,
+      "iS" : 16824,
       "oA" : 0,
       "oAP" : "\/assets\/favicon\/android-chrome-192x192.png",
       "oF" : 0,
@@ -19,12 +19,12 @@
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/favicon\/android-chrome-512x512.png" : {
       "ft" : 32768,
-      "iS" : 58208,
+      "iS" : 35688,
       "oA" : 0,
       "oAP" : "\/assets\/favicon\/android-chrome-512x512.png",
       "oF" : 0,
@@ -32,12 +32,12 @@
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/favicon\/apple-touch-icon.png" : {
       "ft" : 32768,
-      "iS" : 14493,
+      "iS" : 15071,
       "oA" : 0,
       "oAP" : "\/assets\/favicon\/apple-touch-icon.png",
       "oF" : 0,
@@ -45,12 +45,12 @@
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/favicon\/favicon-16x16.png" : {
       "ft" : 32768,
-      "iS" : 1078,
+      "iS" : 702,
       "oA" : 0,
       "oAP" : "\/assets\/favicon\/favicon-16x16.png",
       "oF" : 0,
@@ -58,12 +58,12 @@
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/favicon\/favicon-32x32.png" : {
       "ft" : 32768,
-      "iS" : 2499,
+      "iS" : 1736,
       "oA" : 0,
       "oAP" : "\/assets\/favicon\/favicon-32x32.png",
       "oF" : 0,
@@ -71,14 +71,14 @@
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/favicon\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/assets\/favicon\/favicon.ico",
       "oF" : 0
     },
@@ -86,7 +86,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/assets\/favicon\/site.webmanifest",
       "oF" : 0
     },
@@ -100,14 +100,14 @@
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/CNAME" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/CNAME",
       "oF" : 0
     },
@@ -123,11 +123,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/index.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/index.css.map",
+      "oF" : 0
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
     },
@@ -135,7 +143,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/index.php",
       "oF" : 0
     },
@@ -165,7 +173,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/README.html",
       "oF" : 0
     },
@@ -197,11 +205,11 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/css\/variables.css",
+      "oAP" : "\/scss\/common\/variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/scss\/index.scss" : {
       "aP" : 0,
@@ -212,11 +220,11 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/css\/index.css",
-      "oF" : 1,
+      "oAP" : "\/scss\/index.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     }
   },
   "hooks" : [
@@ -226,9 +234,9 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 509911219,
-    "displayValue" : "website",
-    "displayValueWasSetByUser" : 1,
+    "creationDate" : 744559437.13306797,
+    "displayValue" : "agrimaud.github.io",
+    "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/assets\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
@@ -539,7 +547,7 @@
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
-        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false}"
+        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
       },
       "array-bracket-newline" : {
         "active" : 0,
@@ -551,7 +559,7 @@
       },
       "array-callback-return" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowImplicit': false}"
       },
       "array-element-newline" : {
         "active" : 0,
@@ -580,13 +588,9 @@
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
-      },
       "camelcase" : {
         "active" : 0,
-        "optionString" : "{'properties': 'always'}"
+        "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
       },
       "capitalized-comments" : {
         "active" : 0,
@@ -594,7 +598,7 @@
       },
       "class-methods-use-this" : {
         "active" : 0,
-        "optionString" : "{'exceptMethods': []}"
+        "optionString" : "{'exceptMethods': [], 'enforceForClassFields': true}"
       },
       "comma-dangle" : {
         "active" : 1,
@@ -614,7 +618,7 @@
       },
       "computed-property-spacing" : {
         "active" : 0,
-        "optionString" : "'never'"
+        "optionString" : "'never', {'enforceForClassMembers': true}"
       },
       "consistent-return" : {
         "active" : 0,
@@ -657,7 +661,7 @@
         "optionString" : "'always', {'null': 'always'}"
       },
       "for-direction" : {
-        "active" : 0
+        "active" : 1
       },
       "func-call-spacing" : {
         "active" : 0,
@@ -665,15 +669,19 @@
       },
       "func-name-matching" : {
         "active" : 0,
-        "optionString" : "'always', {'includeCommonJSModuleExports': false}"
+        "optionString" : "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
       },
       "func-names" : {
         "active" : 0,
-        "optionString" : "'always'"
+        "optionString" : "'always', {'generators': 'always'}"
       },
       "func-style" : {
         "active" : 0,
         "optionString" : "'expression'"
+      },
+      "function-call-argument-newline" : {
+        "active" : 0,
+        "optionString" : "'always'"
       },
       "function-paren-newline" : {
         "active" : 0,
@@ -684,11 +692,8 @@
         "optionString" : "{'before': true, 'after': false}"
       },
       "getter-return" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : "{'allowImplicit': false}"
-      },
-      "global-require" : {
-        "active" : 0
       },
       "grouped-accessor-pairs" : {
         "active" : 0,
@@ -697,11 +702,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -711,7 +712,7 @@
       },
       "id-match" : {
         "active" : 0,
-        "optionString" : "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+        "optionString" : "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
       },
       "implicit-arrow-linebreak" : {
         "active" : 0,
@@ -719,7 +720,7 @@
       },
       "indent" : {
         "active" : 0,
-        "optionString" : "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+        "optionString" : "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
       },
       "init-declarations" : {
         "active" : 0,
@@ -753,9 +754,13 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
-        "optionString" : "1"
+        "optionString" : "{'ignoreExpressions': false, 'max': 1}"
       },
       "max-depth" : {
         "active" : 0,
@@ -803,7 +808,7 @@
       },
       "new-parens" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "'always'"
       },
       "newline-per-chained-call" : {
         "active" : 0,
@@ -816,7 +821,7 @@
         "active" : 0
       },
       "no-async-promise-executor" : {
-        "active" : 0
+        "active" : 1
       },
       "no-await-in-loop" : {
         "active" : 0
@@ -824,9 +829,6 @@
       "no-bitwise" : {
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
-      },
-      "no-buffer-constructor" : {
-        "active" : 0
       },
       "no-caller" : {
         "active" : 0
@@ -838,7 +840,7 @@
         "active" : 1
       },
       "no-compare-neg-zero" : {
-        "active" : 0
+        "active" : 1
       },
       "no-cond-assign" : {
         "active" : 1,
@@ -846,13 +848,16 @@
       },
       "no-confusing-arrow" : {
         "active" : 0,
-        "optionString" : "{'allowParens': false}"
+        "optionString" : "{'allowParens': true, 'onlyOneSimpleParam': false}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
+        "active" : 1
+      },
+      "no-constant-binary-expression" : {
         "active" : 1
       },
       "no-constant-condition" : {
@@ -889,6 +894,9 @@
       "no-dupe-keys" : {
         "active" : 1
       },
+      "no-duplicate-case" : {
+        "active" : 1
+      },
       "no-duplicate-imports" : {
         "active" : 0,
         "optionString" : "{'includeExports': false}"
@@ -908,6 +916,9 @@
         "optionString" : "{'allow': []}"
       },
       "no-empty-pattern" : {
+        "active" : 1
+      },
+      "no-empty-static-block" : {
         "active" : 1
       },
       "no-eq-null" : {
@@ -930,18 +941,19 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
-        "active" : 1,
-        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
+        "active" : 0,
+        "optionString" : "'all'"
       },
       "no-extra-semi" : {
-        "active" : 1
+        "active" : 0
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -950,12 +962,12 @@
         "active" : 1
       },
       "no-global-assign" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : "{'exceptions': []}"
       },
       "no-implicit-coercion" : {
         "active" : 0,
-        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'disallowTemplateShorthand': false, 'allow': []}"
       },
       "no-implicit-globals" : {
         "active" : 0
@@ -970,7 +982,7 @@
         "active" : 0
       },
       "no-inner-declarations" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "'functions'"
       },
       "no-invalid-regexp" : {
@@ -979,11 +991,11 @@
       },
       "no-invalid-this" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'capIsConstructor': true}"
       },
       "no-irregular-whitespace" : {
         "active" : 1,
-        "optionString" : "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+        "optionString" : "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true, 'skipJSXText': true}"
       },
       "no-iterator" : {
         "active" : 0
@@ -1005,22 +1017,18 @@
         "active" : 0
       },
       "no-loss-of-precision" : {
-        "active" : 0
+        "active" : 1
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 1
       },
       "no-mixed-operators" : {
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
-      },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
       },
       "no-mixed-spaces-and-tabs" : {
         "active" : 0,
@@ -1053,14 +1061,11 @@
       "no-new-func" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
-      "no-new-require" : {
-        "active" : 0
+      "no-new-native-nonconstructor" : {
+        "active" : 1
       },
       "no-new-symbol" : {
-        "active" : 1
+        "active" : 0
       },
       "no-new-wrappers" : {
         "active" : 0
@@ -1070,6 +1075,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -1081,18 +1089,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -1101,7 +1100,7 @@
         "active" : 0
       },
       "no-prototype-builtins" : {
-        "active" : 0
+        "active" : 1
       },
       "no-redeclare" : {
         "active" : 1,
@@ -1119,9 +1118,6 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
-      },
-      "no-restricted-modules" : {
         "active" : 0,
         "optionString" : ""
       },
@@ -1137,18 +1133,15 @@
         "active" : 0,
         "optionString" : "'except-parens'"
       },
-      "no-return-await" : {
-        "active" : 0
-      },
       "no-script-url" : {
         "active" : 0
       },
       "no-self-assign" : {
         "active" : 1,
-        "optionString" : "{'props': false}"
+        "optionString" : "{'props': true}"
       },
       "no-self-compare" : {
-        "active" : 1
+        "active" : 0
       },
       "no-sequences" : {
         "active" : 0,
@@ -1159,24 +1152,20 @@
       },
       "no-shadow" : {
         "active" : 0,
-        "optionString" : "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+        "optionString" : "{'builtinGlobals': false, 'hoist': 'functions', 'allow': [], 'ignoreOnInitialization': false}"
       },
       "no-shadow-restricted-names" : {
-        "active" : 0
+        "active" : 1
       },
       "no-sparse-arrays" : {
         "active" : 1
       },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : ""
-      },
       "no-tabs" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{allowIndentationTabs: false}"
       },
       "no-template-curly-in-string" : {
-        "active" : 1
+        "active" : 0
       },
       "no-ternary" : {
         "active" : 0
@@ -1189,7 +1178,7 @@
       },
       "no-trailing-spaces" : {
         "active" : 0,
-        "optionString" : "{'skipBlankLines': false}"
+        "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
       "no-undef" : {
         "active" : 1,
@@ -1203,7 +1192,7 @@
       },
       "no-underscore-dangle" : {
         "active" : 0,
-        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'enforceInClassFields': false, 'allowFunctionParams': true}"
       },
       "no-unexpected-multiline" : {
         "active" : 1
@@ -1226,8 +1215,8 @@
         "active" : 1
       },
       "no-unsafe-negation" : {
-        "active" : 0,
-        "optionString" : ""
+        "active" : 1,
+        "optionString" : "{'enforceForOrderingRelations': false}"
       },
       "no-unsafe-optional-chaining" : {
         "active" : 1,
@@ -1235,34 +1224,34 @@
       },
       "no-unused-expressions" : {
         "active" : 0,
-        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false}"
+        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false, 'enforceForJSX': false}"
       },
       "no-unused-labels" : {
         "active" : 1
       },
       "no-unused-private-class-members" : {
-        "active" : 0
+        "active" : 1
       },
       "no-unused-vars" : {
         "active" : 1,
-        "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+        "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'all', 'ignoreRestSiblings': false}"
       },
       "no-use-before-define" : {
         "active" : 0,
-        "optionString" : "{'functions': true, 'classes': true, 'variables': true}"
+        "optionString" : "{'functions': true, 'classes': true, 'variables': true, 'allowNamedExports': false}"
       },
       "no-useless-backreference" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-call" : {
         "active" : 0
       },
       "no-useless-catch" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-computed-key" : {
-        "active" : 1,
-        "optionString" : ""
+        "active" : 0,
+        "optionString" : "{'enforceForClassMembers': true}"
       },
       "no-useless-concat" : {
         "active" : 0
@@ -1271,7 +1260,7 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-rename" : {
         "active" : 0,
@@ -1285,7 +1274,7 @@
       },
       "no-void" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowAsStatement': false}"
       },
       "no-warning-comments" : {
         "active" : 0,
@@ -1295,7 +1284,7 @@
         "active" : 0
       },
       "no-with" : {
-        "active" : 0
+        "active" : 1
       },
       "nonblock-statement-body-position" : {
         "active" : 0,
@@ -1303,7 +1292,7 @@
       },
       "object-curly-newline" : {
         "active" : 0,
-        "optionString" : "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+        "optionString" : "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
       },
       "object-curly-spacing" : {
         "active" : 0,
@@ -1311,7 +1300,7 @@
       },
       "object-property-newline" : {
         "active" : 0,
-        "optionString" : "{'allowMultiplePropertiesPerLine': true}"
+        "optionString" : "{'allowAllPropertiesOnSameLine': true}"
       },
       "object-shorthand" : {
         "active" : 0,
@@ -1402,15 +1391,11 @@
       "require-await" : {
         "active" : 0
       },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
-      },
       "require-unicode-regexp" : {
         "active" : 0
       },
       "require-yield" : {
-        "active" : 0
+        "active" : 1
       },
       "rest-spread-spacing" : {
         "active" : 0,
@@ -1430,11 +1415,11 @@
       },
       "sort-imports" : {
         "active" : 0,
-        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
       },
       "sort-keys" : {
         "active" : 0,
-        "optionString" : "'asc', {'caseSensitive': true, 'natural': false}"
+        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2, 'allowLineSeparatedGroups': false}"
       },
       "sort-vars" : {
         "active" : 0,
@@ -1489,11 +1474,7 @@
       },
       "use-isnan" : {
         "active" : 1,
-        "optionString" : ""
-      },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+        "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
       },
       "valid-typeof" : {
         "active" : 1,
@@ -1530,7 +1511,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "minifierStyle" : 1,
+      "minifierStyle" : 0,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
       "transpilerStyle" : 1
@@ -1607,7 +1588,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "orderOutput" : 0,
+      "orderOutput" : 1,
       "outputStyle" : 1
     },
     "languageDefaultsKIT" : {
@@ -1636,7 +1617,7 @@
       "rewriteURLStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 1,
+      "sourceMapStyle" : 0,
       "strictImports" : 0,
       "strictUnits" : 0
     },
@@ -1662,7 +1643,7 @@
       "useCompatibilityMode" : 0
     },
     "languageDefaultsOTHER" : {
-      "autoOutputAction" : 2,
+      "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.*",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
@@ -1679,7 +1660,7 @@
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
       "optimizerType" : 1,
-      "quality" : 100,
+      "quality" : 90,
       "webpOptimizationPresetUUID" : "lpckwebp-none",
       "webpRGBQuality" : 75
     },
@@ -1692,7 +1673,7 @@
       "autoOutputPathStyle" : 0,
       "compileDebug" : 1,
       "htmlMinifierStyle" : 0,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "shouldRunCacheBuster" : 0
     },
     "languageDefaultsSASS" : {
@@ -1701,8 +1682,8 @@
       "autoOutputPathRelativePath" : "..\/css",
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
-      "autoOutputPathStyle" : 2,
-      "compilerType" : 1,
+      "autoOutputPathStyle" : 0,
+      "compilerType" : 0,
       "cssoStyle" : 0,
       "decimalPrecision" : 10,
       "emitCharset" : 1,
@@ -1751,7 +1732,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "pluginMask" : 3758088159
+      "pluginMask" : 52780316221407
     },
     "languageDefaultsTS" : {
       "autoOutputAction" : 0,
@@ -1763,11 +1744,12 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -1819,10 +1801,14 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+    "rollupTreeshakingModuleSideEffects" : 1,
+    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -1831,36 +1817,36 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
-    "tsForceConsistentCasingInFileNames" : 0,
+    "tsExperimentalDecorators" : 0,
+    "tsForceConsistentCasingInFileNames" : 1,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
@@ -1893,7 +1879,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,
@@ -1908,7 +1894,7 @@
         "flagValue" : -1
       },
       "dead_code" : {
-        "active" : 0,
+        "active" : 1,
         "flagValue" : -1
       },
       "directives" : {
@@ -1940,7 +1926,7 @@
         "flagValue" : -1
       },
       "hoist_funs" : {
-        "active" : 1,
+        "active" : 0,
         "flagValue" : -1
       },
       "hoist_props" : {
@@ -1984,7 +1970,7 @@
         "flagValue" : -1
       },
       "keep_fargs" : {
-        "active" : 0,
+        "active" : 1,
         "flagValue" : -1
       },
       "keep_fnames" : {
@@ -1992,6 +1978,10 @@
         "flagValue" : -1
       },
       "keep_infinity" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
+      "keep_numbers" : {
         "active" : 0,
         "flagValue" : -1
       },
@@ -2018,6 +2008,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -2112,7 +2106,7 @@
         "flagValue" : -1
       },
       "unused" : {
-        "active" : 0,
+        "active" : 1,
         "flagValue" : -1
       },
       "warnings" : {
@@ -2123,13 +2117,17 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "wrap_func_args" : {
+        "active" : 1,
+        "flagValue" : -1
+      },
       "wrap_iife" : {
         "active" : 0,
         "flagValue" : -1
       }
     },
     "uglifyMangleNames" : 1,
-    "uglifyReservedNamesString" : "$",
+    "uglifyReservedNamesString" : "$,exports,require",
     "webpPresets" : {
 
     },
