@@ -128,7 +128,6 @@ p {
   margin-bottom: 80px;
 }
 .profile #profile-links a {
-  display: inline-block;
   border: 2px solid #262f2d;
   border-radius: 50%;
   width: 40px;
@@ -178,6 +177,11 @@ p {
   color: #444847;
   font-weight: 400;
   padding: 24px 0;
+}
+.activities em {
+  color: #262f2d;
+  font-style: normal;
+  font-weight: 600;
 }
 .activities ul {
   list-style-position: outside;
