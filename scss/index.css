@@ -20,8 +20,7 @@ html {
 }
 
 body {
-  background-image: radial-gradient(100% 860px at 50% 0, #ecfbea 0, transparent 100%), linear-gradient(180deg, #d4e6ff 50%, #fcf3ff);
-  background-attachment: fixed;
+  background: radial-gradient(100% 860px at 50% 0, #ecfbea 0, transparent 100%), linear-gradient(180deg, #d4e6ff 50%, #fcf3ff);
   margin: 0px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
