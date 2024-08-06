@@ -42,11 +42,21 @@ h1 {
   font-family: $font-display;
   margin-bottom: 8px;
   color: $main-color;
-  font-size: 3rem;
+  font-size: 7rem;
+  line-height: 4rem;
   font-weight: 900;
+  @media screen and (min-width: $breakpoint-tablet) {
+    font-size: 8rem;
+    line-height: 4rem;;
+  }
+
+  span {
+    opacity: 10%;
+  }
 }
 
 h2 {
+  display: none;
   margin-bottom: 16px;
   font-family: $font-body;
   font-weight: 500;
@@ -98,7 +108,7 @@ p {
   @media screen and (min-width: $breakpoint-desktop) {
     width: 960px;
   }
-
+}
 .profile-info {
   margin-bottom: 60px;
   display: flex;
@@ -179,18 +189,11 @@ p {
 
   img {
     width: 160px;
-    // height: 140px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     @media screen and (min-width: $breakpoint-tablet) {
         width: 240px;}
   }
 
-  span {
-    color: $main-color;
-    font-size: 2.5rem;
-    text-transform: none;
-  }
-}
 
 
 

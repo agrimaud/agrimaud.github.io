@@ -38,11 +38,22 @@ h1 {
   font-family: "Phudu", sans-serif;
   margin-bottom: 8px;
   color: #262f2d;
-  font-size: 3rem;
+  font-size: 7rem;
+  line-height: 4rem;
   font-weight: 900;
+}
+@media screen and (min-width: 767px) {
+  h1 {
+    font-size: 8rem;
+    line-height: 4rem;
+  }
+}
+h1 span {
+  opacity: 10%;
 }
 
 h2 {
+  display: none;
   margin-bottom: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -86,32 +97,35 @@ p {
     width: 960px;
   }
 }
-.profile .profile-info {
+
+.profile-info {
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.profile .profile-info p {
+.profile-info p {
   margin-bottom: 24px;
   opacity: 0.7;
 }
-.profile .profile-info p i {
+.profile-info p i {
   margin-right: 8px;
   color: #444847;
 }
-.profile #profile-links {
+
+#profile-links {
   display: flex;
   flex-direction: row;
   gap: 0px;
 }
-.profile .summary p {
+
+.summary p {
   font-size: 2rem;
   line-height: 3.5rem;
   font-weight: 400;
   color: #444847;
 }
-.profile .summary span {
+.summary span {
   font-size: 2.8rem;
   margin-bottom: 40px;
   line-height: 5rem;
@@ -119,15 +133,16 @@ p {
   color: #262f2d;
 }
 @media screen and (min-width: 767px) {
-  .profile .summary span {
+  .summary span {
     font-size: 3rem;
     line-height: 4.5rem;
   }
 }
-.profile .summary h3 {
+.summary h3 {
   margin-bottom: 80px;
 }
-.profile #profile-links a {
+
+#profile-links a {
   border: 2px solid #262f2d;
   border-radius: 50%;
   width: 40px;
@@ -138,27 +153,24 @@ p {
   text-decoration: none;
   margin-right: 16px;
 }
-.profile #profile-links a :hover {
+#profile-links a :hover {
   opacity: 60%;
 }
-.profile i {
+
+i {
   vertical-align: center;
   text-align: center;
   color: #262f2d;
 }
-.profile img {
+
+img {
   width: 160px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 @media screen and (min-width: 767px) {
-  .profile img {
+  img {
     width: 240px;
   }
-}
-.profile span {
-  color: #262f2d;
-  font-size: 2.5rem;
-  text-transform: none;
 }
 
 .activities {
