@@ -42,13 +42,13 @@ h1 {
   font-family: $font-display;
   margin-bottom: 8px;
   color: $main-color;
-  font-size: 7rem;
-  line-height: 4rem;
+  font-size: 6rem;
+  line-height: 3rem;
   font-weight: 900;
-  @media screen and (min-width: $breakpoint-tablet) {
-    font-size: 8rem;
-    line-height: 4rem;;
-  }
+  // @media screen and (min-width: $breakpoint-tablet) {
+  //   font-size: 8rem;
+  //   line-height: 4rem;;
+  // }
 
   span {
     opacity: 10%;
