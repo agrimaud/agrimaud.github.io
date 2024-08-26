@@ -38,8 +38,8 @@ h1 {
   font-family: "Phudu", sans-serif;
   margin-bottom: 8px;
   color: #262f2d;
-  font-size: 6rem;
-  line-height: 3rem;
+  font-size: 5rem;
+  line-height: 2.5rem;
   font-weight: 900;
 }
 h1 span {
@@ -69,7 +69,7 @@ h4 {
   font-weight: 900;
   color: #262f2d;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -118,6 +118,11 @@ p {
   line-height: 3.5rem;
   font-weight: 400;
   color: #444847;
+}
+.summary em {
+  color: #262f2d;
+  font-style: normal;
+  font-weight: 600;
 }
 .summary span {
   font-size: 2.8rem;
@@ -175,31 +180,17 @@ img {
     width: 960px;
   }
 }
-.activities h3 {
-  margin-bottom: 16px;
-}
-.activities p {
-  margin-bottom: 40px;
-  color: #444847;
-  font-weight: 400;
-  padding: 24px 0;
-}
-.activities em {
-  color: #262f2d;
-  font-style: normal;
-  font-weight: 600;
-}
-.activities ul {
-  list-style-position: outside;
-}
 .activities li {
-  list-style-type: none;
+  list-style-type: circle;
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-bottom: 24px;
 }
 
 .activities-container {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
@@ -208,7 +199,7 @@ img {
 }
 @media screen and (min-width: 767px) {
   .activities-item {
-    width: 47%;
+    width: 45%;
   }
 }
 
