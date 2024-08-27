@@ -37,7 +37,7 @@ body {
 h1 {
   font-family: "Phudu", sans-serif;
   margin-bottom: 8px;
-  color: #262f2d;
+  color: black;
   font-size: 5rem;
   line-height: 2.5rem;
   font-weight: 900;
@@ -51,7 +51,7 @@ h2 {
   margin-bottom: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  color: #444847;
+  color: black;
   font-size: 1.5rem;
 }
 
@@ -60,7 +60,7 @@ h3 {
   margin-bottom: 40px;
   font-family: "Phudu", sans-serif;
   font-weight: 900;
-  color: #262f2d;
+  color: black;
 }
 
 h4 {
@@ -84,11 +84,11 @@ p {
 .profile {
   width: 100%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 @media screen and (min-width: 1023px) {
   .profile {
-    width: 960px;
+    width: 1024px;
   }
 }
 
@@ -117,7 +117,7 @@ p {
   font-size: 2rem;
   line-height: 3.5rem;
   font-weight: 400;
-  color: #444847;
+  color: black;
 }
 .summary em {
   color: #262f2d;
@@ -177,29 +177,32 @@ img {
 }
 @media screen and (min-width: 1023px) {
   .activities {
-    width: 960px;
+    width: 1024px;
   }
 }
 .activities li {
-  list-style-type: circle;
   font-size: 1.5rem;
   line-height: normal;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .activities-container {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
 .activities-item {
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05), 0px 2px 6px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 40px;
 }
 @media screen and (min-width: 767px) {
   .activities-item {
-    width: 45%;
+    width: 48%;
   }
 }
 
@@ -209,7 +212,7 @@ img {
 }
 @media screen and (min-width: 1023px) {
   .about {
-    width: 960px;
+    width: 1024px;
   }
 }
 .about i {
@@ -229,7 +232,8 @@ img {
   vertical-align: center;
   text-align: center;
   width: 100%;
-  border: 1px solid rgba(38, 47, 45, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05), 0px 2px 6px 2px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   padding: 40px 24px;
 }
@@ -239,7 +243,7 @@ img {
   }
 }
 .about-item p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 .about-item .emoji {
@@ -252,15 +256,8 @@ img {
 }
 @media screen and (min-width: 1023px) {
   .clients {
-    width: 960px;
+    width: 1024px;
   }
-}
-.clients li:before {
-  font-family: "FontAwesome";
-  font-size: 24px;
-  content: "\f105";
-  margin: 0 8px 0 0px;
-  color: #262f2d;
 }
 
 .clients-container {
@@ -280,6 +277,14 @@ img {
   .clients-item {
     margin-bottom: 0px;
   }
+}
+
+li:before {
+  font-family: "FontAwesome";
+  font-size: 24px;
+  content: "\f105";
+  margin: 0 8px 0 0px;
+  color: #262f2d;
 }
 
 li {
@@ -307,7 +312,7 @@ li a:active {
 }
 @media screen and (min-width: 1023px) {
   .contact {
-    width: 960px;
+    width: 1024px;
   }
 }
 .contact a {
